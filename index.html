@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Phân loại rác bằng AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>♻️ Phân loại rác bằng AI</h1>
+
+  <h2>📤 Tải ảnh từ máy</h2>
+  <input type="file" accept="image/*" onchange="loadImage(event)">
+  <br><br>
+
+  <h2>📷 Chụp ảnh bằng camera</h2>
+  <video id="camera" width="300" autoplay playsinline></video>
+  <br>
+  <button onclick="capture()">Chụp ảnh</button>
+  <canvas id="canvas" width="300" height="300" style="display:none;"></canvas>
+  <br><br>
+
+  <h2>🖼️ Ảnh xem trước</h2>
+  <img id="preview" width="300" />
+  <br><br>
+
+  <button onclick="predict()">Phân loại</button>
+  <h3 id="result">Kết quả: ...</h3>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
