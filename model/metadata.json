@@ -1,1 +1,1 @@
-{"tfjsVersion":"1.7.4","tmVersion":"2.4.10","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2025-07-31T14:40:14.581Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["glass","paper"],"imageSize":224}
+{"tfjsVersion":"1.7.4","tmVersion":"2.4.10","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2026-01-13T07:40:46.734Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["Bìa carton","Thủy tinh","Kim loại","Giấy vụn","Nhựa","Rác không thể tái chế"],"imageSize":224}
